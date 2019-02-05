@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, StatusBar } from 'react-native'
 
 const styles = StyleSheet.create({
     container: {
@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         height: '25%'
     },
     nav: {
-        backgroundColor: '#66fcf1',
+        // backgroundColor: '#83fbf3',
         height: '47%'
     }
    
@@ -17,9 +17,9 @@ const styles = StyleSheet.create({
 class NavBar extends Component {
 
     render(){
-        return <View style={styles.container}>
-            <View style={styles.nav}>
-                <Text>Navigation</Text>
+        return <View >
+            <View >
+                <Text>Navigaion</Text>
             </View>
         </View>
     }

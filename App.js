@@ -1,6 +1,7 @@
 import React from 'react';
 import Landing from './screens/landing/container/Landing'
 import News from './screens/news/container/News'
+import { View, StatusBar } from 'react-native'
 
 import { createStackNavigator, createAppContainer } from 'react-navigation'
 
@@ -16,7 +17,10 @@ const AppContainer = createAppContainer(MainNavigator)
 
 class App extends React.Component {
   render(){
-    return <AppContainer/>
+    return <View style={{flex:1}}>
+      <StatusBar backgroundColor='#66fcf1' barStyle='dark-content'/>
+      <AppContainer/>
+    </View>
   }
 }
 
