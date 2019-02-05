@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
+const styles = StyleSheet.create({
+    screen: {
+        backgroundColor: 'yellow',
+        height: 740
+    }
+})
+
 class Landing extends Component {
 
     static navigationOptions = {
@@ -8,7 +15,7 @@ class Landing extends Component {
         header: null
     }
     render(){
-        return <View>
+        return <View style={styles.screen}>
                 <Text>Hello</Text>
             </View>
     }
