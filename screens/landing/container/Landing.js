@@ -4,7 +4,12 @@ import { StyleSheet, Text, View } from 'react-native'
 const styles = StyleSheet.create({
     screen: {
         backgroundColor: 'yellow',
-        height: 740
+        flex: 1,
+        justifyContent: 'center',
+    },
+    title: {
+        left: '33%',
+        fontSize: 30
     }
 })
 
@@ -16,7 +21,7 @@ class Landing extends Component {
     }
     render(){
         return <View style={styles.screen}>
-                <Text>Hello</Text>
+                <Text style={styles.title}>NewApp</Text>
             </View>
     }
 }
