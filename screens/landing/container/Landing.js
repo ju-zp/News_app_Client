@@ -16,6 +16,11 @@ const styles = StyleSheet.create({
 
 class Landing extends Component {
 
+    static navigationOptions = {
+        title: 'Landing',
+        header: null
+    }
+
     state = {
         fadeAni: new Animated.Value(0),
         interval: null
@@ -33,10 +38,6 @@ class Landing extends Component {
         }, 4000)
     }
 
-    static navigationOptions = {
-        title: 'Landing',
-        header: null
-    }
     render(){
         const { fadeAni } = this.state
         return <View style={styles.screen}>
