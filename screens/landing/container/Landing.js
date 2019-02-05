@@ -17,7 +17,6 @@ const styles = StyleSheet.create({
 class Landing extends Component {
 
     static navigationOptions = {
-        title: 'Landing',
         header: null
     }
 

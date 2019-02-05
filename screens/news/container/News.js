@@ -4,8 +4,7 @@ import { Animated, StyleSheet, Text, View } from 'react-native'
 class News extends Component {
 
     static navigationOptions = {
-        title: 'News',
-        headerLeft: null
+        header: null
     }
 
     render(){
