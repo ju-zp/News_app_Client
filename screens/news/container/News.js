@@ -12,7 +12,7 @@ class News extends Component {
 
     render(){
         return <View style={{flex: 1}}>
-            <StatusBar backgroundColor='#66fcf1' barStyle='dark-content'/>
+            <StatusBar backgroundColor='#66fcf1' barStyle='dark-content' translucent/>
             <NavBar/>
             <Text>hello</Text>
         </View>

@@ -18,7 +18,7 @@ const AppContainer = createAppContainer(MainNavigator)
 class App extends React.Component {
   render(){
     return <View style={{flex:1}}>
-      <StatusBar backgroundColor='#66fcf1' barStyle='dark-content'/>
+      <StatusBar backgroundColor='rgba(0,0,0,0.2)' barStyle='light-content'/>
       <AppContainer/>
     </View>
   }
