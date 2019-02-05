@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import { View, Text } from 'react-navigation'
+import { View, Text } from 'react-native'
 
-class Navigation extends Component {
+class NavBar extends Component {
 
     render(){
         return <View>
@@ -11,4 +11,4 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation
+export default NavBar
