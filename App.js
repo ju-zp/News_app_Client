@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import Landing from './screens/landing/container/Landing'
+import News from './screens/news/container/News'
 
 import { createStackNavigator, createAppContainer } from 'react-navigation'
 
 const MainNavigator = createStackNavigator(
-  {Home: {screen: Landing}},
+  {Home: {screen: Landing},
+  News: {screen: News}},
   {
     initialRouteName: 'Home'
   }

@@ -29,8 +29,8 @@ class Landing extends Component {
             }
         ).start()
         setTimeout(() => {
-            this.props.navigation.navigation('news')
-        })
+            this.props.navigation.navigate('News')
+        }, 4000)
     }
 
     static navigationOptions = {
