@@ -4,9 +4,12 @@ import Landing from './screens/landing/container/Landing'
 
 import { createStackNavigator, createAppContainer } from 'react-navigation'
 
-const MainNavigator = createStackNavigator({
-  Home: {screen: Landing}
-})
+const MainNavigator = createStackNavigator(
+  {Home: {screen: Landing}},
+  {
+    initialRouteName: 'Home'
+  }
+)
 
 const AppContainer = createAppContainer(MainNavigator)
 
